@@ -1,0 +1,5 @@
+@echo off
+cd backend
+python create_dataset.py
+python train_model.py
+python app.py
